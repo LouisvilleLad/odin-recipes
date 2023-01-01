@@ -1,0 +1,45 @@
+/* style.css */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+
+    line-height: 1.6em;
+    margin: 0;
+}
+
+
+a:active{
+    color:greenyellow;
+}
+
+a:visited{
+    color: yellowgreen;
+}
+
+h2{
+    color: greenyellow;
+    background-color: #333;
+
+    border: #333;
+}
+
+.container{
+    width: 80%;
+   display: block;
+   margin: auto;
+   width: 25%;
+}
+.box-1{
+    background-color: #333;
+    color: greenyellow;
+    border:3px greenyellow solid;
+    border-bottom-width: 10px;
+    border-style:double;
+
+    padding:20px;
+}
+
+a:hover{
+    color: red;
+}
